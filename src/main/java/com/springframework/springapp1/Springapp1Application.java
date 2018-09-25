@@ -11,6 +11,6 @@ public class Springapp1Application
     {
         SpringApplication.run(Springapp1Application.class, args);
 
-        System.out.println("cipka !!!");
+
     }
 }
