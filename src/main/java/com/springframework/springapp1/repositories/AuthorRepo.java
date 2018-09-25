@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 /*jesli klikniemy go to -> Implementations dla CrudRepository<T,ID>
 * to wtedy pokaze nam implementacje interfejsu
 * wtedy widac ze on juz ma kilka implementacji
-* to z nich spring wybiera implementacje i 
+* to z nich spring wybiera implementacje i
 * autowajruje  nam w klasie DevBootStrap*/
 @Component
 public interface AuthorRepo extends CrudRepository<Author,Long>
